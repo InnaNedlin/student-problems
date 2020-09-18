@@ -1,0 +1,104 @@
+.students-problems {
+  padding-top: 50px;
+  padding-bottom: 367px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #111518;
+  height: 545px;
+
+  @include tablet {
+    padding-top: 60px;
+    padding-bottom: 176px;
+    padding-left: 42px;
+    padding-right: 158px;
+    height: 340px;
+  }
+
+  @include desktop {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 282px;
+    padding-left: 183px;
+    padding-right: 631px;
+
+    height: 560px;
+    background-image: url(../images/student_problems_img/fire.svg.#icon-fire);
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
+  }
+}
+
+// .container {
+//   width: 100%;
+//   // padding-left: 15px;
+//   // padding-right: 15px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   box-sizing: border-box;
+
+//   @media screen and (min-width: 320px) {
+//     width: 280px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     width: 690px;
+//   }
+
+//   @media screen and (min-width: 1320px) {
+//     width: 1320px;
+//   }
+// }
+
+.section-title-problems {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) and (max-width: 1319px) {
+    font-size: 26px;
+  }
+
+  @media screen and (min-width: 1320px) {
+    font-size: 46px;
+  }
+}
+
+.color-text {
+  color: $accent-color;
+}
+
+// .students-problems {
+//   padding-top: 50px;
+//   background-color: #111518;
+
+//   @include tablet {
+//     padding-top: 60px;
+//   }
+
+//   @include desktop {
+//     width: 100%;
+//     height: 560px;
+//     padding-top: 88px;
+//     background-image: url(../images/desktop/students-fire.svg);
+
+//     background-repeat: no-repeat;
+//     background-position: bottom 0px right 0px;
+//   }
+// }
+
+// .students-problems-title {
+// }
+
+// .students-problems-list {
+// }
+
+// .students-problems-item {
+// }
+
+// .students-problems-subtitle {
+// }
